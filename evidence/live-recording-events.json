@@ -1,0 +1,74 @@
+{
+ "video": "D:\\PROJECTS\\.cognition\\zetaris-demo\\rec\\video-take4\\page@74309b0e4a31946d31573e01d2976b9e.webm",
+ "events": [
+  {
+   "t": 0.0,
+   "event": "start"
+  },
+  {
+   "t": 5.39,
+   "event": "workspace"
+  },
+  {
+   "t": 9.52,
+   "event": "sources_visible"
+  },
+  {
+   "t": 15.61,
+   "event": "editor"
+  },
+  {
+   "t": 15.61,
+   "event": "type_federation"
+  },
+  {
+   "t": 21.26,
+   "event": "run_federation"
+  },
+  {
+   "t": 29.11,
+   "event": "result_federation"
+  },
+  {
+   "t": 32.19,
+   "event": "type_sources"
+  },
+  {
+   "t": 35.57,
+   "event": "run_sources"
+  },
+  {
+   "t": 41.34,
+   "event": "result_sources"
+  },
+  {
+   "t": 44.45,
+   "event": "type_summary"
+  },
+  {
+   "t": 46.89,
+   "event": "run_summary"
+  },
+  {
+   "t": 53.64,
+   "event": "result_summary"
+  },
+  {
+   "t": 56.74,
+   "event": "type_queue"
+  },
+  {
+   "t": 59.84,
+   "event": "run_queue"
+  },
+  {
+   "t": 65.81,
+   "event": "result_queue"
+  },
+  {
+   "t": 75.03,
+   "event": "end"
+  }
+ ],
+ "utc": "2026-10-28T07:15:42Z"
+}

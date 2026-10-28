@@ -1,0 +1,254 @@
+{
+ "n": 48,
+ "positives": 19,
+ "methods": {
+  "section_amended": {
+   "tp": 19,
+   "fp": 29,
+   "fn": 0,
+   "tn": 0,
+   "precision": 0.3958333333333333,
+   "recall": 1.0,
+   "f1": 0.5671641791044776,
+   "accuracy": 0.3958333333333333,
+   "flagged": 48,
+   "f1_ci95_seeds": [
+    [
+     0.426,
+     0.703
+    ],
+    [
+     0.4,
+     0.703
+    ],
+    [
+     0.4,
+     0.703
+    ]
+   ],
+   "f1_ci95_mean": [
+    0.409,
+    0.703
+   ],
+   "high_confidence_subset": {
+    "tp": 10,
+    "fp": 22,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.3125,
+    "recall": 1.0,
+    "f1": 0.47619047619047616,
+    "accuracy": 0.3125,
+    "flagged": 32,
+    "n": 32
+   },
+   "random_sample_subset": {
+    "tp": 12,
+    "fp": 28,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.3,
+    "recall": 1.0,
+    "f1": 0.4615384615384615,
+    "accuracy": 0.3,
+    "flagged": 40,
+    "n": 40
+   },
+   "review_load_vs_section_amended": 1.0
+  },
+  "text_changed": {
+   "tp": 19,
+   "fp": 26,
+   "fn": 0,
+   "tn": 3,
+   "precision": 0.4222222222222222,
+   "recall": 1.0,
+   "f1": 0.59375,
+   "accuracy": 0.4583333333333333,
+   "flagged": 45,
+   "f1_ci95_seeds": [
+    [
+     0.441,
+     0.725
+    ],
+    [
+     0.429,
+     0.722
+    ],
+    [
+     0.436,
+     0.725
+    ]
+   ],
+   "f1_ci95_mean": [
+    0.435,
+    0.724
+   ],
+   "high_confidence_subset": {
+    "tp": 10,
+    "fp": 19,
+    "fn": 0,
+    "tn": 3,
+    "precision": 0.3448275862068966,
+    "recall": 1.0,
+    "f1": 0.5128205128205129,
+    "accuracy": 0.40625,
+    "flagged": 29,
+    "n": 32
+   },
+   "random_sample_subset": {
+    "tp": 12,
+    "fp": 25,
+    "fn": 0,
+    "tn": 3,
+    "precision": 0.32432432432432434,
+    "recall": 1.0,
+    "f1": 0.489795918367347,
+    "accuracy": 0.375,
+    "flagged": 37,
+    "n": 40
+   },
+   "review_load_vs_section_amended": 0.938
+  },
+  "sentinel": {
+   "tp": 16,
+   "fp": 9,
+   "fn": 3,
+   "tn": 20,
+   "precision": 0.64,
+   "recall": 0.8421052631578947,
+   "f1": 0.7272727272727272,
+   "accuracy": 0.75,
+   "flagged": 25,
+   "f1_ci95_seeds": [
+    [
+     0.556,
+     0.862
+    ],
+    [
+     0.552,
+     0.857
+    ],
+    [
+     0.556,
+     0.857
+    ]
+   ],
+   "f1_ci95_mean": [
+    0.554,
+    0.859
+   ],
+   "high_confidence_subset": {
+    "tp": 10,
+    "fp": 5,
+    "fn": 0,
+    "tn": 17,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "accuracy": 0.84375,
+    "flagged": 15,
+    "n": 32
+   },
+   "random_sample_subset": {
+    "tp": 9,
+    "fp": 8,
+    "fn": 3,
+    "tn": 20,
+    "precision": 0.5294117647058824,
+    "recall": 0.75,
+    "f1": 0.6206896551724139,
+    "accuracy": 0.725,
+    "flagged": 17,
+    "n": 40
+   },
+   "review_load_vs_section_amended": 0.521
+  }
+ },
+ "errors_sentinel": [
+  {
+   "assessment_id": "NCHA-008",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_MATERIAL",
+   "label_confidence": "high",
+   "label_rationale": "Same 3-year retention after final disposition for property and equipment records; wording only."
+  },
+  {
+   "assessment_id": "NCHA-013",
+   "truth": "MATERIAL",
+   "verdict": "EDITORIAL_ONLY",
+   "label_confidence": "medium",
+   "label_rationale": "Deviation approval by 'agency head or delegate based on documented justification' -> 'awarding Federal agency'; approver and justification dropped."
+  },
+  {
+   "assessment_id": "NCHA-014",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_NOT_FOUND",
+   "label_confidence": "low",
+   "label_rationale": "Improper-payment documentation clause not among candidates; no evidence it was removed."
+  },
+  {
+   "assessment_id": "NCHA-016",
+   "truth": "MATERIAL",
+   "verdict": "EDITORIAL_ONLY",
+   "label_confidence": "low",
+   "label_rationale": "Scope widened: 'converts' -> 'establishes or converts' to actuarial method for PRHP unfunded liability."
+  },
+  {
+   "assessment_id": "NCHA-017",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_MATERIAL",
+   "label_confidence": "low",
+   "label_rationale": "Report deviations and request prior approvals unchanged; recipient -> recipient or subrecipient, agency -> agency or pass-through entity."
+  },
+  {
+   "assessment_id": "NCHA-022",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_NOT_FOUND",
+   "label_confidence": "medium",
+   "label_rationale": "Prior approval for costs requiring it under subpart E retained; adds 'unless waived by the Federal agency'."
+  },
+  {
+   "assessment_id": "NCHA-025",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_MATERIAL",
+   "label_confidence": "high",
+   "label_rationale": "No other prior approval requirements without OMB approval; wording only."
+  },
+  {
+   "assessment_id": "NCHA-026",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_MATERIAL",
+   "label_confidence": "high",
+   "label_rationale": "Agency must include indirect cost/cost share policies in NOFO; wording only."
+  },
+  {
+   "assessment_id": "NCHA-030",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_MATERIAL",
+   "label_confidence": "high",
+   "label_rationale": "Land/building improvements need prior written approval; restated from 'unallowable except' to 'allowable only with'."
+  },
+  {
+   "assessment_id": "NCHA-037",
+   "truth": "MATERIAL",
+   "verdict": "EDITORIAL_ONLY",
+   "label_confidence": "low",
+   "label_rationale": "Lease-versus-purchase analysis 'will be made' -> 'should be made'; obligation softened."
+  },
+  {
+   "assessment_id": "NCHA-042",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_MATERIAL",
+   "label_confidence": "high",
+   "label_rationale": "Agency may waive unneeded performance reports; wording only."
+  },
+  {
+   "assessment_id": "NCHA-045",
+   "truth": "NOT_MATERIAL",
+   "verdict": "REVIEW_MATERIAL",
+   "label_confidence": "low",
+   "label_rationale": "Approved budget description retained; sentence on performance/evaluation considerations dropped; pass-through entity added."
+  }
+ ]
+}
