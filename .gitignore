@@ -10,3 +10,4 @@ venv/
 demo/out/
 demo/tmp/
 demo/state.json
+.tmp/

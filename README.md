@@ -17,6 +17,34 @@ An explainable agent that re-checks a grant recipient's compliance register agai
 
 ---
 
+## 28 October improvement — modal-aware v2
+
+The executable Python candidate and a new **live federated Zetaris view** now
+also track `will` and `can`. On the same 48 labelled assessments, this recovers
+one additional material change with **no additional false positive**:
+
+| | Original v1 | Modal v2 |
+|---|---:|---:|
+| Recall | 0.8421 | **0.8947** |
+| Precision | 0.6400 | **0.6538** |
+| F1 | 0.7273 | **0.7556** |
+| Review queue | 25 | 26 |
+
+The live SQL and independent Python candidate agree on **48/48 verdicts**.
+This is an exploratory improvement on the known benchmark; the paired
+section-bootstrap interval for ΔF1 is [0, 0.1068], not proof of performance on
+unseen regulations. [Implementation, all three ablations and limits](docs/MODAL_V2.md) ·
+[Live agreement](results/modal-v2/live-agreement.json) · [Per-case results](results/modal-v2/predictions.csv).
+
+```sh
+python -m src.control_modal_v2
+python scripts/evaluate_modal_variants.py
+python -m src.sentinel provision --variant modal-v2
+python -m src.sentinel review --variant modal-v2
+```
+
+The tables and video below describe v1; its results remain reproducible.
+
 ## Contents
 
 - [The problem](#the-problem)
