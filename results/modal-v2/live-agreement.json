@@ -1,0 +1,27 @@
+{
+  "verified_utc": "2026-10-28T09:14:16.307468+00:00",
+  "view": "regsentinel.change_review_modal_v2",
+  "agreement": 48,
+  "n": 48,
+  "live_summary": {
+    "generated_utc": "2026-10-28T09:11:41+00:00",
+    "view": "regsentinel.change_review_modal_v2",
+    "assessments": 48,
+    "needs_review": 26,
+    "by_verdict": {
+      "EDITORIAL_ONLY": 19,
+      "REVIEW_MATERIAL": 19,
+      "REVIEW_NOT_FOUND": 7,
+      "UNCHANGED": 3
+    },
+    "zetaris_server_ms": 12172,
+    "wall_s": 12.597
+  },
+  "source_sha256": {
+    "results/modal-v2-live/review.json": "79399abdf035be37b0a6edc33300d9e934012300dbc408adbb3f9273a287d0ea",
+    "results/modal-v2/predictions.csv": "7dff5f90b216f9662d10ba9d5ac61f6a9c2a5890b3d00760fb9909498ecb3115",
+    "sql/21_change_review_modal_v2.sql": "e0e832cc72695596ee42e296271b204de5c89f650caf59f66619907b32817117",
+    "src/control_modal_v2.py": "ff279c418b1b591c1113cddcc4e3f7aa4c6938c1f845b3cda418b3b808e74879"
+  },
+  "latency_note": "First recorded v2 run after restarting stopped services; not a controlled speed comparison."
+}

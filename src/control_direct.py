@@ -41,7 +41,7 @@ def load_sources(pg_dsn: str, csv_path: str):
     return register, newp, versions
 
 
-def decide(register, newp, versions) -> dict[str, dict]:
+def decide(register, newp, versions, *, fact_extractor=facts, max_distance=0.60) -> dict[str, dict]:
     amended = {}
     for v in versions:
         if "2024-09-30" < v["amendment_date"] <= "2024-10-01":
@@ -59,10 +59,10 @@ def decide(register, newp, versions) -> dict[str, dict]:
             if best is None or key < best[0]:
                 best = (key, p)
         dist = best[0][0] if best else None
-        fb, fa = facts(a["cited_text"]), facts(best[1]["paragraph_text"] if best else "")
+        fb, fa = fact_extractor(a["cited_text"]), fact_extractor(best[1]["paragraph_text"] if best else "")
         if dist == 0:
             verdict = "UNCHANGED"
-        elif dist is None or dist > 0.60:
+        elif dist is None or dist > max_distance:
             verdict = "REVIEW_NOT_FOUND"
         elif set(fb) ^ set(fa):
             verdict = "REVIEW_MATERIAL"
