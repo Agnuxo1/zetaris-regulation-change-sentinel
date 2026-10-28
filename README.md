@@ -19,6 +19,11 @@ An explainable agent that re-checks a grant recipient's compliance register agai
 
 ## 28 October improvement — modal-aware v2
 
+**Official delivery:** the video, English subtitles and write-up were uploaded
+to the organiser's Dropbox on 28 October at 20:41–20:42 UTC. All three files
+were verified in a fresh folder listing. [Delivery record](docs/DELIVERY_20261028.md).
+Organiser confirmation of completeness and judging results are still pending.
+
 The executable Python candidate and a new **live federated Zetaris view** now
 also track `will` and `can`. On the same 48 labelled assessments, this recovers
 one additional material change with **no additional false positive**:
