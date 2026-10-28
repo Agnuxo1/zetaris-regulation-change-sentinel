@@ -1,0 +1,7 @@
+# Agent: Python standard library only.
+# Control pipeline, evaluation, figures and tests:
+psycopg[binary]==3.2.3
+rapidfuzz==3.10.1
+matplotlib==3.10.0
+pillow==10.4.0
+pytest==8.3.4

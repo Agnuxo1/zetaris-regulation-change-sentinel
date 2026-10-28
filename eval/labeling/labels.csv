@@ -1,0 +1,46 @@
+assessment_id,label,successor_ordinal,confidence,rationale
+NCHA-001,MATERIAL,60,high,"Equipment threshold $5,000 -> $10,000."
+NCHA-002,MATERIAL,185,high,"MTDC subaward exclusion $25,000 -> $50,000."
+NCHA-003,MATERIAL,16,high,De minimis rate 10% -> up to 15% of MTDC.
+NCHA-004,MATERIAL,1,high,"Single audit threshold $750,000 -> $1,000,000."
+NCHA-005,MATERIAL,20,high,"Equipment disposition threshold $5,000 -> $10,000 per unit."
+NCHA-006,MATERIAL,4,high,"Special purpose equipment prior approval threshold $5,000 -> $10,000."
+NCHA-007,MATERIAL,1,high,"Fixed amount subaward limit Simplified Acquisition Threshold -> $500,000; recipient now allowed."
+NCHA-008,EDITORIAL,4,high,Same 3-year retention after final disposition for property and equipment records; wording only.
+NCHA-009,EDITORIAL,7,high,Accrual-basis leave rule unchanged; 'non-Federal entity' -> 'recipient or subrecipient'.
+NCHA-010,EDITORIAL,7,high,Must account for property per 200.310-316 and 200.330; only terminology changed.
+NCHA-011,EDITORIAL,,low,"Post-retirement refund equitable-share clause not among candidates; likely retained, pension analogue [27] differs. Not evidence of removal."
+NCHA-012,MATERIAL,1,medium,Entertainment exception 'approved budget or prior written approval' -> 'specific and direct programmatic purpose and included in award'; gifts added.
+NCHA-013,MATERIAL,4,medium,Deviation approval by 'agency head or delegate based on documented justification' -> 'awarding Federal agency'; approver and justification dropped.
+NCHA-014,EDITORIAL,,low,Improper-payment documentation clause not among candidates; no evidence it was removed.
+NCHA-015,MATERIAL,9,medium,Added exception: administrative closeout costs may be incurred until final report due date; previously only approved budget period.
+NCHA-016,MATERIAL,32,low,Scope widened: 'converts' -> 'establishes or converts' to actuarial method for PRHP unfunded liability.
+NCHA-017,EDITORIAL,2,low,"Report deviations and request prior approvals unchanged; recipient -> recipient or subrecipient, agency -> agency or pass-through entity."
+NCHA-019,EDITORIAL,34,medium,"Subrecipient monitoring duty unchanged; (d) -> (e), 'must include' -> 'must'."
+NCHA-020,MATERIAL,3,high,Liquidation deadline stays 120 days for recipient but subrecipient now 90 calendar days.
+NCHA-021,EDITORIAL,4,low,Consolidate advance payment requests unchanged; adds subrecipient and pass-through entity wording.
+NCHA-022,EDITORIAL,10,medium,Prior approval for costs requiring it under subpart E retained; adds 'unless waived by the Federal agency'.
+NCHA-023,EDITORIAL,9,high,Auditee definition reworded; same substance (entity that must be audited).
+NCHA-024,MATERIAL,9,medium,Reporting trigger 'materially impair' -> 'impact' milestones/objectives; now includes favorable developments; corrective action plan required.
+NCHA-025,EDITORIAL,5,high,No other prior approval requirements without OMB approval; wording only.
+NCHA-026,EDITORIAL,7,high,Agency must include indirect cost/cost share policies in NOFO; wording only.
+NCHA-027,MATERIAL,6,medium,Prior approval list scope 'non-construction awards' -> all awards; 'written' approval and pass-through entity added.
+NCHA-028,EDITORIAL,21,high,Auditee must electronically submit form and reporting package to FAC; wording only.
+NCHA-029,EDITORIAL,20,high,"ERISA termination insurance premiums allowable, penalties unallowable; wording only."
+NCHA-030,EDITORIAL,5,high,Land/building improvements need prior written approval; restated from 'unallowable except' to 'allowable only with'.
+NCHA-032,EDITORIAL,5,high,Temporary dependent care allowable conditions unchanged; wording only.
+NCHA-033,EDITORIAL,8,high,Audit finding definition unchanged; citation to 200.516(a) moved.
+NCHA-034,MATERIAL,1,medium,"Same 30 days/nine months deadline, but cognizant agency may now authorize an extension."
+NCHA-035,EDITORIAL,16,high,Medical-needs airfare condition and documentation duty unchanged; terminology only.
+NCHA-036,EDITORIAL,15,high,Sealed bidding feasibility conditions 'should be present'; wording only.
+NCHA-037,MATERIAL,5,low,Lease-versus-purchase analysis 'will be made' -> 'should be made'; obligation softened.
+NCHA-038,EDITORIAL,2,high,Public inspection of reporting package and PII protection unchanged.
+NCHA-039,EDITORIAL,2,high,Lodging allowable up to normal policy charges unchanged; 'written travel policy' -> 'established written policy'.
+NCHA-040,MATERIAL,24,medium,Specific list of items required when returning funds to PMS replaced by 'follow PMS instructions'.
+NCHA-041,MATERIAL,1,high,"Participant support costs: prior approval required -> allowable without prior approval, documentation in written policies."
+NCHA-042,EDITORIAL,11,high,Agency may waive unneeded performance reports; wording only.
+NCHA-043,MATERIAL,1,high,Disclosure now requires credible evidence; adds conflict of interest and civil False Claims Act; also disclose to OIG.
+NCHA-045,EDITORIAL,1,low,Approved budget description retained; sentence on performance/evaluation considerations dropped; pass-through entity added.
+NCHA-046,EDITORIAL,13,high,For-profit subrecipient compliance responsibility of pass-through entity unchanged; wording only.
+NCHA-047,EDITORIAL,30,high,Actuarial PRHP costs funded within six months unchanged; wording only.
+NCHA-048,EDITORIAL,1,high,Agency COI policies and recipient written disclosure unchanged; terminology only.

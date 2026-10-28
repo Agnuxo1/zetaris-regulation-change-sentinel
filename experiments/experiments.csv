@@ -1,0 +1,5 @@
+id,date,hypothesis,configuration,commit,metric,decision
+E1,2026-10-28,fact-diff view beats section/text-level controls,sql/20_change_review_view.sql cutoff=0.60 seed=20261028,see git log,F1=0.727 vs 0.567/0.594; flagged 25 vs 48/45,accepted
+E2,2026-10-28,federated SQL equals specified rule,src/control_direct.py,see git log,agreement 48/48 x3 sessions,accepted
+E3,2026-10-28,Zetaris not slower than direct access,bench 3x30 runs,see git log,median 1.79/2.36/1.85 s vs 0.46 s,rejected
+E4,2026-10-28,advantage holds on random/high-confidence subsets,eval/evaluate.py,see git log,F1 0.621 (n=40); 0.800 (n=32),accepted

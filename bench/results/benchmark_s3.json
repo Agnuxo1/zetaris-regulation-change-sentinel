@@ -1,0 +1,45 @@
+{
+ "utc": "2026-10-28T07:02:45Z",
+ "runs": 30,
+ "warmup": 3,
+ "host": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+ "agreement": "48/48",
+ "disagreements": {},
+ "latency": {
+  "zetaris_federated_view": {
+   "n": 30,
+   "median_s": 1.8451,
+   "mean_s": 1.8612,
+   "stdev_s": 0.0987,
+   "p10_s": 1.7519,
+   "p90_s": 2.0054
+  },
+  "direct_control": {
+   "n": 30,
+   "median_s": 0.4572,
+   "mean_s": 0.4556,
+   "stdev_s": 0.0113,
+   "p10_s": 0.4411,
+   "p90_s": 0.4693
+  }
+ },
+ "integration_surface": {
+  "zetaris_federated_view": {
+   "connections_in_agent": 1,
+   "credentials_in_agent": 1,
+   "client_libraries": [
+    "urllib (stdlib)"
+   ]
+  },
+  "direct_control": {
+   "connections_in_agent": 3,
+   "credentials_in_agent": 1,
+   "client_libraries": [
+    "psycopg",
+    "csv",
+    "urllib",
+    "rapidfuzz"
+   ]
+  }
+ }
+}
