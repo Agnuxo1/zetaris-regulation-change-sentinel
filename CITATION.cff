@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this research software and retain all applicable copyright and license notices."
+type: software
+title: "Zetaris — Regulation Change Sentinel"
+authors:
+  - given-names: "Francisco"
+    family-names: "Angulo de Lafuente"
+    orcid: "https://orcid.org/0009-0001-1634-7063"
+license: "MIT"
+repository-code: "https://github.com/Agnuxo1/zetaris-regulation-change-sentinel"
