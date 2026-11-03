@@ -1,0 +1,17 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Zetaris — Regulation Change Sentinel",
+  "author": {
+    "@type": "Person",
+    "givenName": "Francisco",
+    "familyName": "Angulo de Lafuente",
+    "@id": "https://orcid.org/0009-0001-1634-7063"
+  },
+  "codeRepository": "https://github.com/Agnuxo1/zetaris-regulation-change-sentinel",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "copyrightYear": 2026,
+  "dateModified": "2026-11-03",
+  "developmentStatus": "research",
+  "version": "research-release-provenance-2026-11-03"
+}
