@@ -1,3 +1,8 @@
+<!-- Research illustration: conceptual pipeline, not measured results. -->
+![Animated conceptual scientific workflow](assets/hero-workflow.gif)
+
+*Conceptual scientific pipeline (not experimental footage).* [Accessible vector architecture](assets/architecture.svg).
+
 <div align="center">
 
 # Regulation Change Sentinel
