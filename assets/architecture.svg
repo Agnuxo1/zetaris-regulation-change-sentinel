@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="260" viewBox="0 0 1152 260" role="img">
+<title>ZETARIS  |  Regulation Change Sentinel conceptual workflow</title>
+<desc>Four stages, left to right; conceptual, not experimental footage.</desc>
+<rect x="0" y="0" width="1152" height="260" fill="#0a1828"/>
+<text x="26" y="39" fill="#eff9ff" font-family="Arial,sans-serif" font-weight="bold" font-size="27">ZETARIS  |  Regulation Change Sentinel</text>
+<rect x="24" y="74" width="270" height="123" rx="15" fill="#1b4050" stroke="#3ad6bb" stroke-width="2"/>
+<text x="37" y="110" fill="#f7fcff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">SOURCE REGULATIONS</text>
+<text x="37" y="149" fill="#b7d9e4" font-family="Arial,sans-serif" font-size="16">Legal text evidence</text>
+<rect x="309" y="74" width="270" height="123" rx="15" fill="#1b4050" stroke="#3ad6bb" stroke-width="2"/>
+<text x="322" y="110" fill="#f7fcff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">STRUCTURED PARSE</text>
+<text x="322" y="149" fill="#b7d9e4" font-family="Arial,sans-serif" font-size="16">Change extraction</text>
+<rect x="594" y="74" width="270" height="123" rx="15" fill="#1b4050" stroke="#3ad6bb" stroke-width="2"/>
+<text x="607" y="110" fill="#f7fcff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">IMPACT SIGNALS</text>
+<text x="607" y="149" fill="#b7d9e4" font-family="Arial,sans-serif" font-size="16">Traceable differences</text>
+<rect x="879" y="74" width="270" height="123" rx="15" fill="#1b4050" stroke="#3ad6bb" stroke-width="2"/>
+<text x="892" y="110" fill="#f7fcff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">HUMAN REVIEW</text>
+<text x="892" y="149" fill="#b7d9e4" font-family="Arial,sans-serif" font-size="16">Citation and verification</text>
+<text x="26" y="234" fill="#c0dce5" font-family="Arial,sans-serif" font-size="14">Conceptual diagram | Copyright (c) 2026 Francisco Angulo de Lafuente | ORCID 0009-0001-1634-7063 | MIT</text>
+</svg>
