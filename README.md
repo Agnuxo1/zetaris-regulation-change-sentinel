@@ -22,6 +22,10 @@ An explainable agent that re-checks a grant recipient's compliance register agai
 
 ---
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> The Sentinel directs reviewers toward material regulatory changes and exposes the quoted evidence through one federated endpoint, reducing manual comparison and per-source integration work. The repository reports that modal-aware v2 sends 26 of 48 fictional assessments to review while improving recall on that known benchmark. The <a href="#28-october-improvement--modal-aware-v2">documented comparison</a> supports targeted triage, with missed changes and unseen-regulation performance still requiring human oversight and validation.</sub>
+<!-- impact-note:end -->
+
 ## 28 October improvement — modal-aware v2
 
 **Official delivery:** the video, English subtitles and write-up were uploaded
